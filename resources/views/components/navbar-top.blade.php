@@ -21,7 +21,9 @@
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
-
+            <div class='nav navbar-nav' style="width: 67%; margin: auto;">
+                <img src="{{asset('navbar-logo.png')}}"  height='50' style="display: block; margin: auto; height: 50px">
+            </div>
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
                 <!-- Authentication Links -->

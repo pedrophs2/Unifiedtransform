@@ -78,7 +78,7 @@
             <div class="content">
                 <div class="m-b-md">
                     <!-- {{config('app.name')}} -->
-                    <img src="appname.svg" width="500">
+                    <img src="hybrasil.jpeg" width="300">
                 </div>
                 <!-- <p style="font-size: 25px;">@lang('Makes managing schools an amazing experience')</p> -->
                 <div class="links">
@@ -89,10 +89,6 @@
                             <a href="{{ route('login') }}">@lang('Login')</a>
                         @endauth
                     @endif
-                    <a href="https://github.com/changeweb/Unifiedtransform">
-                        <i class="fa fa-github"></i>
-                        @lang('GitHub')
-                    </a>
                 </div>
             </div>
         </div>

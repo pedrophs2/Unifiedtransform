@@ -13,19 +13,19 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name'     => "hasib",
-            'email'    => 'hasib@unifiedtransform.com',
-            'password' => bcrypt('secret'),
+            'name'     => "master",
+            'email'    => 'master@hybrasil.com',
+            'password' => bcrypt('hymaster'),
             'role'     => 'master',
             'student_code' => 0000000,
             'active'   => 1,
             'verified' => 1,
         ]);
 
-        factory(User::class, 10)->states('admin')->create();
-        factory(User::class, 10)->states('accountant')->create();
-        factory(User::class, 10)->states('librarian')->create();
-        factory(User::class, 30)->states('teacher')->create();
-        factory(User::class, 200)->states('student')->create();
+        // factory(User::class, 10)->states('admin')->create();
+        // factory(User::class, 10)->states('accountant')->create();
+        // factory(User::class, 10)->states('librarian')->create();
+        // factory(User::class, 30)->states('teacher')->create();
+        // factory(User::class, 200)->states('student')->create();
     }
 }
